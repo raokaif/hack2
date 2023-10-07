@@ -1,17 +1,17 @@
 #include<stdio.h>
 int main()
 {
-    int d, lat1, lat2, lon1, lon2, R = 6371;
+    float d, lat1, lat2, lon1, lon2, R = 6371;
     printf("Enter the latitude of location A:\n ");
-    scanf("%d",lat1);
+    scanf("%f",lat1);
     printf("Enter the latitude of location B:\n ");
-    scanf("%d",lat2);
+    scanf("%f",lat2);
     printf("Enter the longitude of location A:\n ");
-    scanf("%d",lon1);
+    scanf("%f",lon1);
     printf("Enter the longitude of location B:\n ");
-    scanf("%d",lon2);
-    printf("Origin:(%d%d)",lat1, lon1);
-    printf("Destination:(%d%d)",lat2, lon2);
+    scanf("%f",lon2);
+    printf("Origin:(%f%f)",lat1, lon1);
+    printf("Destination:(%f%f)",lat2, lon2);
 
     return 0;
 }
