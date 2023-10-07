@@ -10,6 +10,8 @@ int main()
     scanf("%d",lon1);
     printf("Enter the longitude of location B:\n ");
     scanf("%d",lon2);
+    printf("Origin:(%d%d)",lat1, lon1);
+    printf("Destination:(%d%d)",lat2, lon2);
 
     return 0;
 }
