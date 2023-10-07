@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    float d, lat1, lat2, lon1, lon2, R = 6371;
+    float d, lat1, lat2, lon1, lon2, R = 6371 , pi = 3.14;
     printf("Enter the latitude of location A:\n ");
     scanf("%f",lat1);
     printf("Enter the latitude of location B:\n ");
@@ -13,7 +13,11 @@ int main()
     printf("Origin:(%f%f)",lat1, lon1);
     printf("Destination:(%f%f)",lat2, lon2);
     if (lat1 >= -90 && lat1 <= 90 && lat2 >= -90 && lat2 <= 90 && lon1 >= -180 && lon1 <= 180 && lon2 >= -180 && lon2 <= 180)
-    {
+    { 
+        lat1 = lat1/180*pi;
+        lat2 = lat2/180*pi;
+        lon1 = lon1/180*pi;
+        lon2 = lon2/180*pi;
         
     }
     else{
