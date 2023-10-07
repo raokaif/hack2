@@ -30,4 +30,12 @@ int main()
     }
 
     return 0;
-}
+}  
+
+// test case: 
+
+// 1) origin: (latitude: 40.7128° N, longitude: 74.0060° W) destination: (latitude: 34.0522° N, longitude: 118.2437° W) Air distance  6,346.7 kilometers.
+
+// 2) origin: (latitude: 51.5074° N, longitude: 0.1278° W) destination: (latitude: 48.8566° N, longitude: 2.3522° E) Air distance  343.2 kilometers.
+
+// 3) origin: (latitude: 35.682839° N, longitude: 139.759455° E) destination: ((latitude: 40.712776° N, longitude: -74.005974° W) Air distance 10,854.1 kilometers.
