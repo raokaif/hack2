@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<math.h>
 int main()
 {
     float d, lat1, lat2, lon1, lon2, R = 6371 , pi = 3.14, diff;
