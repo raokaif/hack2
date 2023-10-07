@@ -20,6 +20,7 @@ int main()
         lon2 = lon2/180*pi;
         diff = lon2 -lon1 ;
         d = acos((sin(lat1)) * (sin(lat2)) + (cos(lat1)) * (cos(lat2)) * (cos(diff))) *R;
+        printf("Air distance:(%f)\n",d);
         
     }
     else{
